@@ -1,27 +1,49 @@
-# VideoService
-
+# Video Service
+## How to view project
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+Unpack this repository to local path. Run `npm i` in this path to istall bundles. Run `ng s` to start view this project
+Navigate to `http://localhost:4200/` on your browser. 
 
-## Development server
+## Instuctions (on Russian)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Что нужно сделать
+1. Реализовать переключение между табами;
+2. Реализовать кастомный скроллбар;
+3. Реализовать форму добавления комментария:
+- Валидация поля ввода на свое усмотрение;
+- При нажатии кнопки «Опубликовать», комментарий должен добавляться в
+начало списка;
+- При клике на крестик в комментарии, комментарий должен удаляться;
+- Удалять можно только свой комментарий;
+- Комментарии должны сохранятся при перезагрузке страницы;
+4. Реализовать возможность изменения имени пользователя:
+- При клике на имени пользователя вместо текущего значения должно
+появляться поле ввода;
+- При этом в поле ввода должно сразу подставляться текущее значение;
+- После снятия фокуса с поля ввода значение должно сохраняться на странице;
+- Имя пользователя должно сохраняться при перезагрузке страницы;
+5. При нажатии на постер Фильмы должна открываться страница подробного
+описания фильма;
+6. Реализовать фильтрацию по фильмам:
+- При введении поискового запроса "Новый Бэтмен" оставался на странице
+только данный постер;
+7. Реализовать горизонтальный слайдер для прокрутки фильмов.
+Требования к реализации
+― Выполненное задание должно соответствовать макету (важно);
+― Плюсом будет адаптивная вёрстка и нормальная работа на мобильных
+устройствах;
+― Нужно сверстать предоставленный макет кроссбраузерно;
+― Требования по браузерам: Internet Explorer 11,edge и Chrome, Opera, Yandex
+Browser, Firefox последних версий.
+### Требования к коду
+1. Верстка должна быть валидная и семантичная;
+2. HTML/CSS/JS код должен быть структурированным, понятным и по возможности
+оптимальным;
+3. Возможно использование каких-либо библиотек/фреймворков (в этом случае
+ревью будет более требовательным);
+4. Плюсом будет использование каких-либо сборщиков, пре/пост процессоров css;
+5. Выбор технологического стека остается за тобой, мы не навязываем
+инструментов.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Макет
+`https://www.figma.com/file/a6plBHSkdMRizmWJikoJZ2/test-task-frontend-middle?node-id=5%3A41`
